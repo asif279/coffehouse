@@ -1,0 +1,43 @@
+.about_grid {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+   column-gap: 53px;
+}
+.about_img{
+    position: relative;
+    padding-left: 24px;
+    width: 70%;
+
+}
+.about_img::before{
+    content: '';
+    position: absolute;
+    bottom: -1.15rem;
+    left: 0;
+    background-color: var(--first-color);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.about_detailes{
+    margin-block-start:20px 36px ;
+    margin-block-end: 20px 36px;
+    margin-bottom: 30px;
+}
+.about_detail_des{
+    display: flex;
+    align-items: center;
+}
+.about_detailes,
+.about_detail_des{
+    gap: 10px;
+}
+.about_description{padding: 10px;}
+.section_title{
+    font-size: 32px;
+}
+.heading{
+    color: antiquewhite;
+    font-family: var(--second-font);
+    font-size: 21px;
+}
