@@ -10,6 +10,7 @@ import Header from './component/Header/Header';
 import Home from './component/Home/Home';
 import Menu from './component/Menu/Menu';
 import Offer from './component/Offer/Offer';
+import Team from './component/Team/Team';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Counting/>
       <Gallery/>
       <Offer/>
+      <Team/>
     </div>
   );
 }
