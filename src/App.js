@@ -1,6 +1,8 @@
 
 import './App.css';
 import About from './component/About/About';
+import Choice from './component/Choice/Choice';
+import Counting from './component/Counting/Counting';
 import Features from './component/Features/Features';
 
 import Header from './component/Header/Header';
@@ -15,6 +17,8 @@ function App() {
       <About/>
       <Features/>
       <Menu/>
+      <Choice/>
+      <Counting/>
     </div>
   );
 }

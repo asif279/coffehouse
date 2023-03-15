@@ -24,7 +24,14 @@ const Menu = () => {
                     return (
                         <div className="menu_item grid">
                             <div className="menu_img_wrap">
-                            <img src="" alt="" className="menu_img" />
+                            <img src={img} alt="" className="menu_img" />
+                            </div>
+                            <div className="menu_data">
+                                <div>
+                                    <h3 className="menu_title">{title}</h3>
+                                    <p className="menu_des">{description}</p>
+                                </div>
+                                <span className="menu_price">{price}</span>
                             </div>
                         </div>
                     )
