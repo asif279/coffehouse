@@ -50,11 +50,8 @@ export const links = [
   {
     name: 'Chefs',
     path: 'team',
-  },
-  {
-    name: 'Testimonials',
-    path: 'testimonials',
-  },
+  }
+ 
 ];
 
 export const features = [

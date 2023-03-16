@@ -61,9 +61,14 @@
     padding: 0;
    box-sizing: border-box;
   }
-  input,textarea,body{
+  input,textarea,body,button{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
+  }
+  .btn_flex{
+    display: flex;
+    align-items: center;
+    column-gap: 0.25rem;
   }
   body{
     color: var(--text-color);

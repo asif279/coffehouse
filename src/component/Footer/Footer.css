@@ -1,0 +1,13 @@
+
+.footer{
+    border-radius: 10px;
+}
+.link{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: var(--second-font);
+    text-decoration: none;
+}
+.footer-title .link{
+    text-decoration: none;
+}
