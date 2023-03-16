@@ -1,13 +1,6 @@
 import React from 'react';
 import './Menu.css';
-import menu1 from '../../assets/01.jpg';
-import menu2 from '../../assets/02.jpg';
-import menu3 from '../../assets/03.jpg';
-import menu4 from '../../assets/04.jpg';
-import menu5 from '../../assets/05.jpg';
-import menu6 from '../../assets/06.jpg';
-import menu7 from '../../assets/07.jpg';
-import menu8 from '../../assets/08.jpg';
+
 import { menu } from '../../Data';
 
 const Menu = () => {
